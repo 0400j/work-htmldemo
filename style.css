@@ -367,6 +367,12 @@ ul {
   border-radius: 5rem; */
   background: linear-gradient(160deg, #43382e 50%, white 50%);
 }
+.member-section .member-list-wrapper .member-list .member-photo:hover {
+  /* border: 2px solid white;
+  border-radius: 5rem; */
+  background: linear-gradient(160deg, orange 50%, white 50%);
+  transition: all 1s ease;
+}
 .member-section .member-list-wrapper .member-list .member-photo {
   padding: 1rem;
 }
@@ -398,7 +404,7 @@ ul {
 .member-section .member-list-wrapper .member-list .member-sns img {
   width: 2rem;
   height: 2rem;
-  border: 2px solid gray;
+  border: 1px solid lightgray;
   border-radius: 2rem;
 }
 
@@ -430,7 +436,7 @@ ul {
 .footer-section .company-sns img {
   width: 2rem;
   height: 2rem;
-  border: 2px solid gray;
+  border: 1px solid lightgray;
   border-radius: 2rem;
 }
 .footer-section .footer .information-section {
